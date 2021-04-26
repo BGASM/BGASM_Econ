@@ -2,11 +2,12 @@
 Python side of measurement gathering.
 '''
 from X4_Python_Pipe_Server import Pipe_Server, Pipe_Client
-
 import threading
 import json
 from pathlib import Path
 import bg_parser
+
+
 
 this_dir = Path(__file__).resolve().parent
 

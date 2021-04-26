@@ -11,16 +11,17 @@ have changed.
 ### Installation
 **To use this mod you need to have SirNukes X4 Python Pipe Server running.**  
 - Download it at https://github.com/bvbohnen/x4-projects/releases.
-- Clone this git and use pip install requirements.txt or you can use Poetry.
-- Download the zip file from release - you will still need to install two dependencies!
+- Grab this mod.
+    - Clone this git
+    - Download the zip file from release
 - BGASM_Econ folder needs to be placed in your /extensions directory in X4 installation folder.
 
-Requrements: Python ^3.6, Pandas, IPython, pivottablesjs and their associated dependencies.
-- You can use pip install requirements.txt
+Requrements: Python ^3.6 and a web browser
+
 
 
 ### Use
-Install the dependencies, run SirNukes Python Pipe Server, and make sure you have a web browser installed.
+Download SirNukes Python Pipe Server, and run it when you play X4 and make sure you have a web browser installed.
 
 
 ### Future Development
@@ -28,5 +29,3 @@ I started working on a lightweight sqlite3 DB that will store price changes over
 
 ### Contribute
 If you want to take a swing at this code, please by all means. Fork a branch and send me a PR.
-If you can help me figure out a way to make this more distributeable without grossly overwriting SirNukes
-Server code, please let me know. That was how I initially debugged the code was with his source build.

@@ -1,19 +1,19 @@
-import pandas as pd
-from pivottablejs import pivot_ui
+#import pandas as pd
+#from pivottablejs import pivot_ui
+import htmlparse
 import os
 import webbrowser
 
 
 def make_tables(data):
     t_data = parse(data)
-    df = pd.DataFrame(t_data)
+    #
     rows = ["cluster", "sector", "station"]
     cols = ["ware"]
     include = {"ware":["Hull Parts", "Field Coils", "Engine Parts"]}
-    pivot_ui(df, outfile_path="bgasm-econ.html", rows=rows, cols=cols, aggregatorName="Sum",
-             vals=["price"])
+    htmlparse.pivot_ui(t_data, outfile_path="bgasm-econ.html", rows=rows, cols=cols, aggregatorName="Sum", vals=["price"])
     if not os.environ.get("BGECON"):
-        webbrowser.open_new('bgasm-econ.html')
+        webbrowser.open_new('bgasm-frame.html')
         os.environ['BGECON'] = "1"
 
 
