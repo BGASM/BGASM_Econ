@@ -5,8 +5,8 @@ that generates an html file in the mod directory and opens your browser to the p
 
 As the script runs it will continue to harvest every minute. The html file only replaces values that 
 have changed.
-![alt text](./img/Demo.png "Cowboy")
-![alt text](./img/Demo2.png "Cowboy")
+![alt text](./img/demo.png "Cowboy")
+![alt text](./img/demo2.png "Cowboy")
 
 ### Installation
 **To use this mod you need to have SirNukes X4 Python Pipe Server running.**  
