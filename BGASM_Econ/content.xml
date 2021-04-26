@@ -1,14 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<content
-  id="bgasm_econ"
-  name="BGASM Economy Scanner"
-  author="BGASM"
-  version="100"
-  date="2021-04-23"
-  save="false"
-  sync="false"
-  enabled="true">
-
+<content id="ws_2468889165" name="BGASM Economy Scanner" description="X4 mod that scrapes market data from player-known sectors and pipes it to a browser based, drag and drop pivot table. BGASM Economy Scanner will keep you updated on galactic supply and demand, and allow you to make calculated production decisions. This mod requires SirNuke's X4 Python Pipe Server to be downloaded and running. You may also need to copy this mod's Steam Workshop ID to the permissions.json file in your game installation folder." version="100" author="BGASM" date="2021-04-26" save="false" sync="false" enabled="true" lastupdate="1619458893">
   <!--Mod support APIs-->
-  <dependency id="ws_2042901274" version="100" optional="false"/>
+  <dependency id="ws_2042901274" version="100" optional="false" name="SirNukes Mod Support APIs"/>
 </content>
